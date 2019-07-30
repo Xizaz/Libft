@@ -105,4 +105,5 @@ void						ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 int							ft_base(const char c);
 int							ft_value_of(char c);
 int							ft_atoi_base(const char *str, int str_base);
+int							ft_sqrtint(int nbr);
 #endif

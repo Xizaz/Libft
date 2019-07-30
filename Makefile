@@ -5,10 +5,11 @@
 #                                                     +:+ +:+         +:+      #
 #    By: jcornil <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/10/22 17:59:43 by jcornil           #+#    #+#              #
-#    Updated: 2018/10/23 10:05:07 by jcornil          ###   ########.fr        #
+#    Created: 2019/07/15 13:48:02 by jcornil           #+#    #+#              #
+#    Updated: 2019/07/15 13:48:04 by jcornil          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
 
 FLAGS = -Wall -Wextra -Werror
 
@@ -46,7 +47,7 @@ SOURCES = ft_strcmp.c ft_strncmp.c\
 		ft_lstdel.c ft_lstmap.c\
 		ft_lstadd.c ft_lstiter.c\
 		ft_base.c ft_value_of.c\
-		ft_atoi_base.c\
+		ft_atoi_base.c ft_sqrtint.c\
 		get_next_line.c\
 
 HEADERS = libft.h
